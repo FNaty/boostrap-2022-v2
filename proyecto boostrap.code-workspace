@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "proyecto boostrap",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "proyecto boostrap"
+	}
+}
