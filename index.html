@@ -183,6 +183,7 @@
             <div class="row">
                 <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
                     <form >
+                        <div class="row">
                         <div class="col-12 col-md-6">
                             <label for="nombre" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="nombre" aria-describedby="nameHelp">
@@ -193,7 +194,17 @@
                             <input type="text" class="form-control" id="apellido" aria-describedby="lastnameHelp">
                             <div id="lastnameHelp" class="form-text">Tu informacion es confidencial.</div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                    <div class="row">
+                        <div class="form-floating col pb-4">
+                            <textarea class="form-control form-control-lg" placeholder="sobre qué quieres hablar?" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Sobre qué quieres hablar?</label>
+                            <small class="form-text text-muted">Recuerda incluir título para tu charla</small>
+                        </div>
+                    </div>
+                    <div class="row pd-3 pt-3">
+                        <button type="button" class="btn btn-platzi">Enviar</button>
+                    </div>
                     </form>
                 </div>
             </div>
